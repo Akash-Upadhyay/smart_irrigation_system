@@ -21,7 +21,7 @@ def main():
     np.random.seed(42)
     
     # Training parameters
-    num_episodes = 10000  # Reduced for faster comparison
+    num_episodes = 1000  # Reduced for faster comparison
     algorithms = ["DQN", "ActorCritic", "PPO"]
     
     # Results storage
